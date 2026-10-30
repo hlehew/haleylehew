@@ -1,0 +1,11 @@
+# macOS
+.DS_Store
+
+# Editor
+.vscode/
+
+# Environment
+.env
+
+# OS generated files
+Thumbs.db
