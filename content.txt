@@ -1,0 +1,48 @@
+Haley Lehew
+
+Hero headline:
+Hi, I'm Haley!
+
+Hero description:
+I'm an educator and researcher.
+Currently, I research K-12 computer science education at Harvard's <a href="https://creativecomputing.gse.harvard.edu/" style="color: #b38d86; text-decoration: underline; text-decoration-thickness: 2px; text-underline-offset: 0.18em; font-weight: 600;">Creative Computing Lab</a>.
+I also help facilitate a course about constructionism called <a href="https://kbrennan.scholars.harvard.edu/courses#t550" style="color: #b38d86; text-decoration: underline; text-decoration-thickness: 2px; text-underline-offset: 0.18em; font-weight: 600;">Designing for Learning by Creating</a>.
+
+Primary links:
+Check out my current obsessions
+Explore my past work
+Say hello
+
+Selected work:
+Web design
+Clear digital experiences
+I help brands and founders shape their online presence into a calmer, more confident experience that makes value easy to see.
+
+Product thinking
+Ideas into usable systems
+From early concept to launch, I bring structure to messy ideas and turn them into simple tools people can understand and use.
+
+Storytelling
+Content that connects
+I shape narratives, messaging, and visuals so the right people feel the value immediately and know what to do next.
+
+
+
+About heading:
+What influences my work?
+
+About paragraph 1:
+I’m a designer and developer who enjoys making digital experiences feel easier to understand and more enjoyable to use.
+
+About paragraph 2:
+My work sits at the intersection of design, communication, and web craft — helping ideas become something real, useful, and memorable.
+
+Contact heading:
+Let’s build something together.
+
+Contact links:
+haley.lehew@gmail.com
+https://www.linkedin.com/in/haleylehew/
+
+Footer:
+© 2026 Haley Lehew

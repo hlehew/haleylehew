@@ -5,9 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="Personal portfolio website for a developer, designer, or creative technologist."
+      content="Haley Lehew builds thoughtful digital experiences and clear, human-centered websites."
     />
-    <title>Your Name | Portfolio</title>
+    <title>Haley Lehew | Portfolio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -19,183 +19,99 @@
   <body>
     <header class="site-header">
       <div class="container nav">
-        <a href="#top" class="brand">YourName</a>
+        <a href="#top" class="brand">Haley Lehew</a>
         <nav class="nav-links" aria-label="Main navigation">
+          <a href="#work">Work</a>
           <a href="#about">About</a>
-          <a href="#projects">Projects</a>
-          <a href="#experience">Experience</a>
           <a href="#contact">Contact</a>
         </nav>
-        <a href="#contact" class="button button-small">Let’s Talk</a>
       </div>
     </header>
 
     <main id="top">
       <section class="hero">
-        <div class="container hero-grid">
-          <div class="hero-copy">
-            <p class="eyebrow">Developer • Builder • Problem Solver</p>
-            <h1>Hi, I’m <span>Your Name</span>.</h1>
-            <p class="lead">
-              I design and build thoughtful digital experiences that help brands,
-              teams, and ideas grow.
-            </p>
-            <div class="hero-actions">
-              <a href="#projects" class="button">View My Work</a>
-              <a href="#contact" class="button button-secondary">Contact Me</a>
-            </div>
-            <ul class="mini-stats" aria-label="Quick facts">
-              <li><strong>5+</strong><span>Years experience</span></li>
-              <li><strong>20+</strong><span>Projects shipped</span></li>
-              <li><strong>100%</strong><span>Curiosity-driven</span></li>
-            </ul>
-          </div>
-
-          <div class="hero-card" aria-label="Profile preview">
-            <div class="portrait-wrap">
-              <div class="portrait">YN</div>
-            </div>
-            <div class="card-content">
-              <p class="card-label">Currently</p>
-              <h2>Building digital products</h2>
-              <p>
-                Based in your city, working on web experiences, products, and
-                creative problem-solving.
-              </p>
-            </div>
+        <div class="container hero-inner">
+          <h1 id="hero-title">
+            I design and build websites, products, and stories that help
+            thoughtful ideas land with clarity.
+          </h1>
+          <p class="lede" id="hero-description">
+            I work with people and teams who want to communicate clearly, build
+            trust, and turn complex ideas into simple, memorable experiences.
+          </p>
+          <div class="hero-actions">
+            <a href="#work" class="text-link" id="primary-link-1">See my work</a>
+            <a href="#contact" class="text-link" id="primary-link-2">Say hello</a>
           </div>
         </div>
       </section>
 
-      <section id="about" class="section">
-        <div class="container section-head">
-          <p class="eyebrow">About</p>
-          <h2>I build clean, useful, human-centered experiences.</h2>
+      <section id="work" class="section">
+        <div class="container">
+          <p class="section-label">Selected work</p>
+          <div class="work-grid">
+            <a class="work-tile" href="#project-clear-digital-experiences" aria-label="View Clear digital experiences project">
+              <div class="tile-copy">
+                <h2 id="work-title-1">Clear digital experiences</h2>
+                <p id="work-body-1">
+                  I help brands and founders shape their online presence into a
+                  calmer, more confident experience that makes value easy to see.
+                </p>
+              </div>
+              <figure class="tile-image tile-image-one" aria-hidden="true"></figure>
+            </a>
+
+            <a class="work-tile" href="#project-usable-systems" aria-label="View Ideas into usable systems project">
+              <div class="tile-copy">
+                <h2 id="work-title-2">Ideas into usable systems</h2>
+                <p id="work-body-2">
+                  From early concept to launch, I bring structure to messy ideas and
+                  turn them into simple tools people can understand and use.
+                </p>
+              </div>
+              <figure class="tile-image tile-image-two" aria-hidden="true"></figure>
+            </a>
+
+            <a class="work-tile" href="#project-content-that-connects" aria-label="View Content that connects project">
+              <div class="tile-copy">
+                <h2 id="work-title-3">Content that connects</h2>
+                <p id="work-body-3">
+                  I shape narratives, messaging, and visuals so the right people
+                  feel the value immediately and know what to do next.
+                </p>
+              </div>
+              <figure class="tile-image tile-image-three" aria-hidden="true"></figure>
+            </a>
+          </div>
         </div>
+      </section>
+
+      <section id="about" class="section about">
         <div class="container about-grid">
           <div>
-            <p>
-              I’m a multidisciplinary developer and designer focused on crafting
-              intuitive experiences for the web. My work blends strategy,
-              design, and engineering to turn ideas into polished products.
-            </p>
-            <p>
-              I enjoy collaborating with founders, teams, and organizations that
-              care about clarity, quality, and meaningful user experiences.
-            </p>
+            <p class="section-label">About</p>
+            <h2 id="about-heading">A thoughtful builder with a love for clarity.</h2>
           </div>
-          <div class="info-panel">
-            <h3>Core strengths</h3>
-            <ul>
-              <li>Responsive web design</li>
-              <li>Front-end development</li>
-              <li>UI/UX strategy</li>
-              <li>Product thinking</li>
-            </ul>
-          </div>
-        </div>
-      </section>
-
-      <section id="projects" class="section alt">
-        <div class="container section-head">
-          <p class="eyebrow">Selected work</p>
-          <h2>Projects that mix creativity with practical impact.</h2>
-        </div>
-
-        <div class="container project-grid">
-          <article class="project-card">
-            <span class="project-tag">Web App</span>
-            <h3>Project One</h3>
-            <p>
-              A product dashboard designed to simplify reporting and improve
-              decision-making through cleaner data storytelling.
+          <div class="about-copy">
+            <p id="about-copy-1">
+              I’m a designer and developer who enjoys making digital experiences
+              feel easier to understand and more enjoyable to use.
             </p>
-            <ul>
-              <li>React</li>
-              <li>UX Design</li>
-              <li>Data Visualization</li>
-            </ul>
-          </article>
-
-          <article class="project-card">
-            <span class="project-tag">Brand Experience</span>
-            <h3>Project Two</h3>
-            <p>
-              A marketing and portfolio experience built to elevate a personal
-              brand and communicate value clearly across devices.
+            <p id="about-copy-2">
+              My work sits at the intersection of design, communication, and web
+              craft — helping ideas become something real, useful, and memorable.
             </p>
-            <ul>
-              <li>Design Systems</li>
-              <li>Responsive Layout</li>
-              <li>Strategy</li>
-            </ul>
-          </article>
-
-          <article class="project-card">
-            <span class="project-tag">Creative Tool</span>
-            <h3>Project Three</h3>
-            <p>
-              A tool that helps teams surface insights faster, with a simple UI
-              and focus on user efficiency.
-            </p>
-            <ul>
-              <li>JavaScript</li>
-              <li>Prototype</li>
-              <li>Product Design</li>
-            </ul>
-          </article>
-        </div>
-      </section>
-
-      <section id="experience" class="section">
-        <div class="container section-head">
-          <p class="eyebrow">Experience</p>
-          <h2>Working across strategy, design, and product development.</h2>
-        </div>
-        <div class="container timeline">
-          <div class="timeline-item">
-            <span class="year">2023 — Present</span>
-            <div>
-              <h3>Independent Consultant</h3>
-              <p>
-                Helping teams design better user experiences and bring thoughtful
-                digital products to life.
-              </p>
-            </div>
-          </div>
-          <div class="timeline-item">
-            <span class="year">2020 — 2023</span>
-            <div>
-              <h3>Product Designer / Front-end Developer</h3>
-              <p>
-                Built interfaces, improved workflows, and collaborated closely
-                with cross-functional product teams.
-              </p>
-            </div>
-          </div>
-          <div class="timeline-item">
-            <span class="year">2018 — 2020</span>
-            <div>
-              <h3>Designer & Creative Technologist</h3>
-              <p>
-                Created visual systems and digital experiences for brands,
-                campaigns, and emerging products.
-              </p>
-            </div>
           </div>
         </div>
       </section>
 
       <section id="contact" class="section contact">
-        <div class="container contact-box">
-          <div>
-            <p class="eyebrow">Contact</p>
-            <h2>Let’s create something meaningful.</h2>
-          </div>
+        <div class="container contact-card">
+          <p class="section-label">Contact</p>
+          <h2 id="contact-heading">Let’s make something thoughtful.</h2>
           <div class="contact-links">
-            <a href="mailto:hello@example.com">hello@example.com</a>
-            <a href="https://www.linkedin.com" target="_blank" rel="noreferrer">LinkedIn</a>
-            <a href="https://github.com" target="_blank" rel="noreferrer">GitHub</a>
+            <a href="mailto:haley.lehew@gmail.com" id="contact-email">haley.lehew@gmail.com</a>
+            <a href="https://www.linkedin.com/in/haleylehew/" target="_blank" rel="noreferrer" id="contact-linkedin">LinkedIn</a>
           </div>
         </div>
       </section>
@@ -203,8 +119,7 @@
 
     <footer class="site-footer">
       <div class="container footer-inner">
-        <p>© <span id="year"></span> Your Name</p>
-        <a href="#top">Back to top</a>
+        <p id="footer-text">© <span id="year"></span> Haley Lehew</p>
       </div>
     </footer>
 
